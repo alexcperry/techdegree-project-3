@@ -1,0 +1,108 @@
+
+/* Base Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100vw;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #334E69;
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#the-code-review {
+  color: #fff;
+  margin: auto;
+}
+
+.wrapper {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.intro {
+  border-bottom: 4px solid #334E69;
+  padding: 20px 0 35px;
+  margin-bottom: 3px;
+}
+
+form {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form {
+  border-top: 2px solid #334E69;
+  border-bottom: 2px solid #334E69;
+  padding-top: 25px;
+}
+
+input[type$="input"],
+select,
+textarea {
+  margin: 15px 0;
+  width: 100%;
+  background-color: #eee;
+  border-radius: 2px;
+  height: 40px;
+  border: none;
+}
+
+.newsletter-form {
+  margin-top: 25px;
+}
+
+.newsletter-form>*{
+  margin-bottom: 14px;
+}
+
+input[type^="radio"],
+input[type^="check"],
+input[type^="radio"]+label,
+input[type^="check"]+label{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+textarea{
+  background-color: #f5f5f5;
+  height: 80px;
+}
+
+#signup{
+  background-color: #00aba2;
+  color: #fff;
+  font-weight: bold;
+  border:none;
+  border-radius: 2px;
+  height: 50px;
+  font-size: 1em;
+  margin: 20px 0 30px;
+}
+
+/* /* 
+.inputlabel {
+  display: flex;
+} */
+
+/* .inputlabel>label{
+  flex-grow: 2;
+}
+
+.inputlabel>input,
+.inputlabel>select{
+  flex-grow: 3;
+} */
